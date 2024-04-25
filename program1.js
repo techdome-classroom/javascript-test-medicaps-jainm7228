@@ -15,7 +15,7 @@ function longestSubstring(s) {
         if (char in seen&& start<=seen[char]){
             start= seen[char]+1;
     }   else{
-        maxLen
+        maxLength = Math.max(maxLength, i-start+1);
     }
 
 
