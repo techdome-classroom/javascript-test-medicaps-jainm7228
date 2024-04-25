@@ -10,7 +10,11 @@ function longestSubstring(s) {
     let seen ={};
 
 
-    for(let i =0;i<s.length;i++}
+    for(let i =0;i<s.length;i++){
+        let char =s[i];
+        if (char in seen&& start<=seen[char]){
+            start= seen[char]+1;
+    }
 
 
 }
