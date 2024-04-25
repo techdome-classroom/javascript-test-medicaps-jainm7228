@@ -19,7 +19,7 @@ function longestSubstring(s) {
     }   
     seen[char]=i;
 }    
-    return Math.max(maxLength
+    return maxLength;
 
 }
 
