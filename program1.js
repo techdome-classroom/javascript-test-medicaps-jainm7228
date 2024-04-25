@@ -1,7 +1,8 @@
+// program1.js
 function longestSubstring(s) {
-    if (s.length === 0) return 0; // Return 0 for an empty string
-    if (s.length === 1) return 1; // Return 1 for a string with one character
-    
+    if (s.length === 0) return 0;
+    if (s.length === 1) return 1;
+
     let maxLength = 0;
     let start = 0;
     let seen = {};
@@ -17,7 +18,8 @@ function longestSubstring(s) {
     }
 
     return maxLength;
-    
 }
 
 module.exports = { longestSubstring };
+
+
