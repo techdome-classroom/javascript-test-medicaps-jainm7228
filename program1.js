@@ -9,7 +9,10 @@ function longestSubstring(s) {
     let start = 0;
     let seen ={};
 
-    
+
+    for(let i =0;i<s.length;i++}
+
+
 }
 
 module.exports = { longestSubstring };
